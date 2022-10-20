@@ -116,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            {{-- <hr>
             <h1 class="text-lg text-center pt-4">- DESIGN POSTER -</h1>
             <div class="flex flex-col">
                 <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -182,12 +182,10 @@
                                                 <a href="/storage/images/tanda_pengenal/{{ $item->file_tp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_kr }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_kr }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 <a
@@ -272,12 +270,10 @@
                                                 <a href="/storage/images/tanda_pengenal/{{ $item->file_tp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_kr }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_kr }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 <a
@@ -359,8 +355,7 @@
                                                 <a href="/storage/images/tanda_pengenal/{{ $item->file_tp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 <a
@@ -445,12 +440,10 @@
                                                 <a href="/storage/images/tanda_pengenal/{{ $item->file_tp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/karya/fotografi/{{ $item->file_kr }}">Detail</a>
+                                                <a href="/storage/images/karya/fotografi/{{ $item->file_kr }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 <a
@@ -535,12 +528,10 @@
                                                 <a href="/storage/images/tanda_pengenal/{{ $item->file_tp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/karya/fotografi/{{ $item->file_kr }}">Detail</a>
+                                                <a href="/storage/images/karya/fotografi/{{ $item->file_kr }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 <a
@@ -625,12 +616,10 @@
                                                 <a href="/storage/images/tanda_pengenal/{{ $item->file_tp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
+                                                <a href="/storage/images/bukti_pembayaran/{{ $item->file_bp }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                                                <a
-                                                    href="/storage/images/karya/fotografi/{{ $item->file_kr }}">Detail</a>
+                                                <a href="/storage/images/karya/fotografi/{{ $item->file_kr }}">Detail</a>
                                             </td>
                                             <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 <a
@@ -648,7 +637,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 @endsection

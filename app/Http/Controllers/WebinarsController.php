@@ -58,6 +58,6 @@ class WebinarsController extends Controller
 
     public function force()
     {
-        return view('homepage');
+        return view('comingsoon');
     }
 }

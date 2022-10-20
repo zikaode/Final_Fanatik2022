@@ -63,7 +63,6 @@ class AdminController extends Controller
             $temp = PesertaKti::find($id);
             Mail::to($temp->email)->send(new ConfirmEmail($temp));
             // $temp = PesertaKti::find($id);
-
             return redirect()->route('admin')->with('confirm', 'Karya Tulis Ilmiah')->with('peserta', $temp->nama);
         }
     }

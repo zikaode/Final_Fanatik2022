@@ -15,7 +15,7 @@
         <div class="dropup relative flex-1 bg-no-repeat bg-wa bg-center bg-contain w-100 h-100"><button
                 class="w-full h-full" type="button" id="dropdownMenuButton1u" data-bs-toggle="dropdown"
                 aria-expanded="false"></button>
-            <ul class=" dropdown-menu min-w-max absolute hidden bg-gray-800 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none "
+            <ul class="dropdown-menu min-w-max absolute hidden bg-gray-800 text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none "
                 aria-labelledby="dropdownMenuButton1u">
                 <li> <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white hover:bg-gray-200 hover:text-gray-800"
                         target="_blank" href="https://api.whatsapp.com/send?phone=6283899387508">CP-1 : Rafli Abdul
@@ -87,6 +87,8 @@
     </footer>
     <script src={{ asset('js/index.js') }}></script>
     <script src={{ asset('js/app.js') }}></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    {{-- <script src={{ asset('js/node_modules_tw-elements_dist_js_index_min_js.js') }}></script> --}}
     <script src="https://unpkg.com/@popperjs/core@2.9.1/dist/umd/popper.min.js" charset="utf-8"></script> @yield('script')
 </body>
 

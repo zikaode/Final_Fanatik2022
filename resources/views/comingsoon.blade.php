@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </section>
-            <form action="/" method="POST">
+            <form action="/" method="GET">
                 @csrf
                 <button class="mt-5 border-2 bg-slate-400 p-2 text-black" type="submit">Force In</button>
             </form>

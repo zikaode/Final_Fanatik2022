@@ -25,7 +25,7 @@ use App\Http\Controllers\VideografisController;
 */
 
 Route::get('/', [WebinarsController::class, 'index']);
-Route::post('/', [WebinarsController::class, 'force']);
+Route::get('/force', [WebinarsController::class, 'force']);
 Route::get('/registration/webinar', [WebinarsController::class, 'webinar']);
 Route::post('/registration/webinar', [WebinarsController::class, 'store']);
 
